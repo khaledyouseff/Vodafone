@@ -37,14 +37,14 @@ public class addItem_1Test extends baseTest {
         //click on item 1
         Thread.sleep(5000);
         homePage.scrollDown1();
-        WebElement addTOCart = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html/body/vf-root/main/section[2]/vf-la" +
+        WebElement item_1t   = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html/body/vf-root/main/section[2]/vf-la" +
                 "nding-page/vf-ng-main-container[2]/section/div/div[3]/vf-middleware/div[2]/vf-products-contai" +
                 "ner/section/div[2]/div/vf-product-box-featured[2]/div/div[3]/div/div[1]/p")));
-        loginButton.click();
+
         Thread.sleep(5000);
         homePage.clickItem_1();
         //adding item 1 to cart
-
+        WebElement addTOCart = wait.until(ExpectedConditions.visibilityOfElementLocated(By.className("add-to-cart")));
         item_1 item1 = new item_1(driver);
         item1.addToCart();
 
