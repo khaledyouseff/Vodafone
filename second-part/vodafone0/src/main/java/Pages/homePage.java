@@ -17,7 +17,7 @@ public void clickAcceptCookies(){
 
     public void scrollDown1(){
         JavascriptExecutor js = (JavascriptExecutor)driver;
-        js.executeScript("scrollBy(0,1100)");
+        js.executeScript("scrollBy(0,1200)");
     }
     public void scrollDown2(){
         JavascriptExecutor js = (JavascriptExecutor)driver;

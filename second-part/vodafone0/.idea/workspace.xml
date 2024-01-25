@@ -38,25 +38,62 @@
     "onboarding.tips.debug.path": "E:/valeo prepration/iti studying/testing/automation/Vodafone/Second-part/vodafone01/vodafone0/src/main/java/org/example/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.addItem_3Test.addingItem_3ToCartTest">
-    <configuration name="addItem_2Test" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.addItem_2Test.addingItem_2ToCartTest">
+    <configuration name="add3ItemsInOneTest.add3ItemsInOneTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="vodafone0" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="addItem_2Test.*" />
+          <option name="PATTERN" value="add3ItemsInOneTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="addItem_2Test" />
-      <option name="MAIN_CLASS_NAME" value="addItem_2Test.addItem_2Test" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="add3ItemsInOneTest" />
+      <option name="MAIN_CLASS_NAME" value="add3ItemsInOneTest.add3ItemsInOneTest" />
+      <option name="METHOD_NAME" value="add3ItemsInOneTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="addItem_2Test.addingItem_1ToCartTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="add3ItemsInOneTest.add3ItemsInOneTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="vodafone0" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="add3ItemsInOneTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="add3ItemsInOneTest" />
+      <option name="MAIN_CLASS_NAME" value="add3ItemsInOneTest.add3ItemsInOneTest" />
+      <option name="METHOD_NAME" value="add3ItemsInOneTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="addItem_1Test.addingItem_1ToCartTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="vodafone0" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="additem_1Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="additem_1Test" />
+      <option name="MAIN_CLASS_NAME" value="additem_1Test.addItem_1Test" />
+      <option name="METHOD_NAME" value="addingItem_1ToCartTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="addItem_2Test.addingItem_2ToCartTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="vodafone0" />
       <extension name="coverage">
         <pattern>
@@ -66,7 +103,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="addItem_2Test" />
       <option name="MAIN_CLASS_NAME" value="addItem_2Test.addItem_2Test" />
-      <option name="METHOD_NAME" value="addingItem_1ToCartTest" />
+      <option name="METHOD_NAME" value="addingItem_2ToCartTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -91,49 +128,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="addItem_3Test.addingItem_3ToCartTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="vodafone0" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="addItem_3Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="addItem_3Test" />
-      <option name="MAIN_CLASS_NAME" value="addItem_3Test.addItem_3Test" />
-      <option name="METHOD_NAME" value="addingItem_3ToCartTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="addItem_3Test.addingItem_3ToCartTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="vodafone0" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="addItem_3Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="addItem_3Test" />
-      <option name="MAIN_CLASS_NAME" value="addItem_3Test.addItem_3Test" />
-      <option name="METHOD_NAME" value="addingItem_3ToCartTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.addItem_3Test.addingItem_3ToCartTest" />
+        <item itemvalue="TestNG.addItem_2Test.addingItem_2ToCartTest" />
+        <item itemvalue="TestNG.addItem_1Test.addingItem_1ToCartTest" />
         <item itemvalue="TestNG.addItem_3Test" />
-        <item itemvalue="TestNG.addItem_3Test.addingItem_3ToCartTest (1)" />
-        <item itemvalue="TestNG.addItem_2Test" />
-        <item itemvalue="TestNG.addItem_2Test.addingItem_1ToCartTest" />
+        <item itemvalue="TestNG.add3ItemsInOneTest.add3ItemsInOneTest (1)" />
+        <item itemvalue="TestNG.add3ItemsInOneTest.add3ItemsInOneTest" />
       </list>
     </recent_temporary>
   </component>
