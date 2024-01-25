@@ -14,7 +14,7 @@ public class loginPage {
     By password =By.id("password");
     By goToMyAccount =By.id("submitBtn");
 
-    public void mobileNumber(String mobileNumber) {
+    public void setMobileNumber(String mobileNumber) {
         driver.findElement(number).sendKeys(mobileNumber);
     }
 
