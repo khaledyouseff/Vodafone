@@ -1,3 +1,5 @@
+package homePageTest;
+
 import Pages.loginPage;
 import baseTest.baseTest;
 import Pages.homePage;

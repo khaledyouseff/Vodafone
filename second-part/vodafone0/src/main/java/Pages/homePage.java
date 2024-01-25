@@ -22,9 +22,18 @@ public void clickAcceptCookies(){
 
     public item_1 clickItem_1(){
 
-       WebElement item_1 = driver.findElement(By.xpath("/html/body/vf-root/main/section[2]/vf-landing-page/vf-ng-main-container[2]/section/div/div[3]/vf-middleware/div[2]/vf-products-container/section/div[2]/div/vf-product-box-featured[2]/div/div[3]/div/div[1]/p"));
+       WebElement item_1 = driver.findElement(By.xpath("/html/body/vf-root/main/section[2]/vf-la" +
+               "nding-page/vf-ng-main-container[2]/section/div/div[3]/vf-middleware/div[2]/vf-products-contai" +
+               "ner/section/div[2]/div/vf-product-box-featured[2]/div/div[3]/div/div[1]/p"));
        item_1.click();
         return new item_1(driver);
+    }
+    public item_2 clickItem_2(){
+
+        WebElement item_1 = driver.findElement(By.xpath("//*[@id=\"01HJ6A5VWGMP4S0EM" +
+                "DJ9VT10QJ\"]/vf-product-box-featured[3]/div/div[2]/img"));
+        item_1.click();
+        return new item_2(driver);
     }
     public loginPage clickLoginIcon(){
         driver.findElement(By.id("userProfileMenu")).click();
