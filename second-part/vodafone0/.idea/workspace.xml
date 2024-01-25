@@ -38,7 +38,19 @@
     "onboarding.tips.debug.path": "E:/valeo prepration/iti studying/testing/automation/Vodafone/Second-part/vodafone01/vodafone0/src/main/java/org/example/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.loginTest.successfulLoginTest">
+  <component name="RunManager" selected="TestNG.addItem_1Test.addingItem_1ToCartTest">
+    <configuration name="addItem_1Test.addingItem_1ToCartTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="vodafone0" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="addItem_1Test" />
+      <option name="METHOD_NAME" value="addingItem_1ToCartTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="homePageTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="vodafone0" />
       <option name="PACKAGE_NAME" value="" />
@@ -50,29 +62,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="homePageTest.openHomePage" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="homePageTest.clickONItem_1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="vodafone0" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="homePageTest" />
-      <option name="METHOD_NAME" value="openHomePage" />
+      <option name="METHOD_NAME" value="clickONItem_1" />
       <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="loginTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="vodafone0" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="loginTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="loginTest" />
-      <option name="MAIN_CLASS_NAME" value="loginTest.loginTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -117,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.addItem_1Test.addingItem_1ToCartTest" />
+        <item itemvalue="TestNG.homePageTest" />
+        <item itemvalue="TestNG.homePageTest.clickONItem_1" />
         <item itemvalue="TestNG.loginTest.successfulLoginTest" />
         <item itemvalue="TestNG.loginTest.successfulLoginTest (1)" />
-        <item itemvalue="TestNG.loginTest" />
-        <item itemvalue="TestNG.homePageTest" />
-        <item itemvalue="TestNG.homePageTest.openHomePage" />
       </list>
     </recent_temporary>
   </component>

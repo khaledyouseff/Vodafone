@@ -19,7 +19,7 @@ public class loginTest extends baseTest {
 
         homePage homePage = new homePage(driver);
         homePage.clickAcceptCookies();
-        homePage.clickLogin();
+        homePage.clickLoginIcon();
         loginPage loginPage = new loginPage(driver);
         loginPage.setMobileNumber("1140342431");
         loginPage.setPassWord("Khaled1997#");
