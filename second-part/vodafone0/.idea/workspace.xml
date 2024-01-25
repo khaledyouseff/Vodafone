@@ -38,19 +38,7 @@
     "onboarding.tips.debug.path": "E:/valeo prepration/iti studying/testing/automation/Vodafone/Second-part/vodafone01/vodafone0/src/main/java/org/example/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.addItem_2Test">
-    <configuration name="addItem_1Test.addingItem_1ToCartTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="vodafone0" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="additem_1Test.addItem_1Test" />
-      <option name="METHOD_NAME" value="addingItem_1ToCartTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.addItem_3Test.addingItem_3ToCartTest">
     <configuration name="addItem_2Test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="vodafone0" />
       <extension name="coverage">
@@ -86,10 +74,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="homePageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="addItem_3Test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="vodafone0" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="homePageTest.homePageTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="addItem_3Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="addItem_3Test" />
+      <option name="MAIN_CLASS_NAME" value="addItem_3Test.addItem_3Test" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -97,11 +91,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="homePageTest.clickONItem_1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="addItem_3Test.addingItem_3ToCartTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="vodafone0" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="homePageTest.homePageTest" />
-      <option name="METHOD_NAME" value="clickONItem_1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="addItem_3Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="addItem_3Test" />
+      <option name="MAIN_CLASS_NAME" value="addItem_3Test.addItem_3Test" />
+      <option name="METHOD_NAME" value="addingItem_3ToCartTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="addItem_3Test.addingItem_3ToCartTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="vodafone0" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="addItem_3Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="addItem_3Test" />
+      <option name="MAIN_CLASS_NAME" value="addItem_3Test.addItem_3Test" />
+      <option name="METHOD_NAME" value="addingItem_3ToCartTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -111,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.addItem_3Test.addingItem_3ToCartTest" />
+        <item itemvalue="TestNG.addItem_3Test" />
+        <item itemvalue="TestNG.addItem_3Test.addingItem_3ToCartTest (1)" />
         <item itemvalue="TestNG.addItem_2Test" />
         <item itemvalue="TestNG.addItem_2Test.addingItem_1ToCartTest" />
-        <item itemvalue="TestNG.addItem_1Test.addingItem_1ToCartTest" />
-        <item itemvalue="TestNG.homePageTest" />
-        <item itemvalue="TestNG.homePageTest.clickONItem_1" />
       </list>
     </recent_temporary>
   </component>

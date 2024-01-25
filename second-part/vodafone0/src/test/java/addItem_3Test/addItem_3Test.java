@@ -1,11 +1,8 @@
-package addItem_2Test;
-import Pages.item_2;
+package addItem_3Test;
+import Pages.*;
 import baseTest.baseTest;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import Pages.loginPage;
-import Pages.homePage;
-import Pages.item_1;
 import baseTest.baseTest;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -15,10 +12,9 @@ import org.testng.annotations.Test;
 import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
-public class addItem_2Test extends baseTest {
-
+public class addItem_3Test extends baseTest {
     @Test
-    public void addingItem_2ToCartTest() throws InterruptedException {
+    public void addingItem_3ToCartTest() throws InterruptedException {
 
 
         //login
@@ -34,14 +30,23 @@ public class addItem_2Test extends baseTest {
         WebElement loginButton = wait.until(ExpectedConditions.elementToBeClickable(By.id("submitBtn")));
         loginButton.click();
         ///---------------------------------------------
-        //click on item 1
+        //search for item 3
+        WebElement searchBar = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("searchInput")));
+        homePage.searchItem_3();
+        //WebElement selectSearchedResult = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html/body/vf-root/main/section[1]/vf-nav-bar/nav/div" +
+               // "/div[2]/vf-search-engine/div[1]/div[2]/div[3]/div/div[1]/p[1]")));
         Thread.sleep(5000);
-        homePage.scrollDown1();
-        Thread.sleep(5000);
-        homePage.clickItem_2();
+        homePage.selectSearchedResult();
 
-        item_2 item2 = new item_2(driver);
+        homePage.scrollDown2();
+        searchPage searchPage = new searchPage(driver);
+       // Thread.sleep(5000);
+        WebElement item = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html/body/vf-root/main/section[2]" +
+                "/vf-product-list-page/div/div[2]/div[5]/vf-product-box-featured[1]/div/div[2]/img")));
+        searchPage.clickItem_3();
+        //Thread.sleep(5000);
+        item_3 item3 = new item_3(driver);
         WebElement addTOCart = wait.until(ExpectedConditions.elementToBeClickable(By.className("add-to-cart")));
-        item2.addToCart();
+        item3.addToCart();
     }
 }

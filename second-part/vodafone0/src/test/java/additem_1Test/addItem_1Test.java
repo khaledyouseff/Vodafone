@@ -36,7 +36,7 @@ public class addItem_1Test extends baseTest {
         ///---------------------------------------------
         //click on item 1
         Thread.sleep(5000);
-        homePage.scrollDown();
+        homePage.scrollDown1();
         Thread.sleep(5000);
 
         homePage.clickItem_1();

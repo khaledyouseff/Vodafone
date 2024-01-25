@@ -31,7 +31,7 @@ public class homePageTest extends baseTest{
     ///---------------------------------------------
   //click on item 1
     Thread.sleep(5000);
-    homePage.scrollDown();
+    homePage.scrollDown1();
     Thread.sleep(5000);
     //WebElement item_1 = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html/body/vf-root/main/section[1]/vf-nav-bar/nav/div/vf-user-profile/div/button/img")));
    homePage.clickItem_1();

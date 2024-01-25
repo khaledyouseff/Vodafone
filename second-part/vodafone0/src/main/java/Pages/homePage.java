@@ -15,11 +15,14 @@ public void clickAcceptCookies(){
         driver.findElement(By.id("onetrust-accept-btn-handler")).click();
 }
 
-    public void scrollDown(){
+    public void scrollDown1(){
         JavascriptExecutor js = (JavascriptExecutor)driver;
         js.executeScript("scrollBy(0,1100)");
     }
-
+    public void scrollDown2(){
+        JavascriptExecutor js = (JavascriptExecutor)driver;
+        js.executeScript("scrollBy(0,800)");
+    }
     public item_1 clickItem_1(){
 
        WebElement item_1 = driver.findElement(By.xpath("/html/body/vf-root/main/section[2]/vf-la" +
@@ -35,6 +38,17 @@ public void clickAcceptCookies(){
         item_1.click();
         return new item_2(driver);
     }
+    public void searchItem_3(){
+        driver.findElement(By.id("searchInput")).sendKeys("سامسونج");
+
+
+    }
+public searchPage selectSearchedResult(){
+    driver.findElement(By.xpath("/html/body/vf-root/main/section[1]/vf-nav-bar/nav/div" +
+            "/div[2]/vf-search-engine/div[1]/div[2]/div[3]/div/div[1]/p[1]")).click();
+    return new searchPage(driver);
+}
+
     public loginPage clickLoginIcon(){
         driver.findElement(By.id("userProfileMenu")).click();
         return new loginPage(driver);
