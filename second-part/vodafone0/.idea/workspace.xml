@@ -38,25 +38,7 @@
     &quot;onboarding.tips.debug.path&quot;: &quot;E:/valeo prepration/iti studying/testing/automation/Vodafone/Second-part/vodafone01/vodafone0/src/main/java/org/example/Main.java&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.addItem_2Test.addingItem_2ToCartTest">
-    <configuration name="add3ItemsInOneTest.add3ItemsInOneTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="vodafone0" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="add3ItemsInOneTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="add3ItemsInOneTest" />
-      <option name="MAIN_CLASS_NAME" value="add3ItemsInOneTest.add3ItemsInOneTest" />
-      <option name="METHOD_NAME" value="add3ItemsInOneTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.addItem_3Test.addingItem_3ToCartTest">
     <configuration name="addItem_1Test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="vodafone0" />
       <extension name="coverage">
@@ -128,13 +110,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="addItem_3Test.addingItem_3ToCartTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="vodafone0" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="addItem_3Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="addItem_3Test" />
+      <option name="MAIN_CLASS_NAME" value="addItem_3Test.addItem_3Test" />
+      <option name="METHOD_NAME" value="addingItem_3ToCartTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.addItem_3Test.addingItem_3ToCartTest" />
         <item itemvalue="TestNG.addItem_2Test.addingItem_2ToCartTest" />
         <item itemvalue="TestNG.addItem_1Test" />
         <item itemvalue="TestNG.addItem_1Test.addingItem_1ToCartTest" />
         <item itemvalue="TestNG.addItem_1Test.addingItem_1ToCartTest (2)" />
-        <item itemvalue="TestNG.add3ItemsInOneTest.add3ItemsInOneTest" />
       </list>
     </recent_temporary>
   </component>

@@ -7,6 +7,7 @@ import baseTest.baseTest;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.time.Duration;
@@ -48,5 +49,13 @@ public class addItem_3Test extends baseTest {
         item_3 item3 = new item_3(driver);
         WebElement addTOCart = wait.until(ExpectedConditions.elementToBeClickable(By.className("add-to-cart")));
         item3.addToCart();
+        //Assertion
+        item3.clickCartIcon();
+        cartPage cart = new cartPage(driver);
+        Thread.sleep(5000);
+        String i3= cart.getItem_3Title();
+        Assert.assertEquals("Samsung The Freestyle Portable Projector LSP3B" ,i3,
+                "Text does not match the expected value.");
+
     }
 }

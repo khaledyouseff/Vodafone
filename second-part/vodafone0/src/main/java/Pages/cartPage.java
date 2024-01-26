@@ -19,4 +19,9 @@ public class cartPage {
                 "[2]/vf-my-cart/div/div/div/div[1]/div[2]/div/div[2]/p")).getText();
         return item_2Title;
     }
+    public String getItem_3Title(){
+        String item_3Title= driver.findElement(By.xpath("//*[@id=\"01HN2QSQF78QKJ0Q4BAJEP0GYE\"" +
+                "]/div/div[2]/p")).getText();
+        return item_3Title;
+    }
 }
