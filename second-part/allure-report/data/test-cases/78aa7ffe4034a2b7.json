@@ -1,0 +1,80 @@
+{
+  "uid" : "78aa7ffe4034a2b7",
+  "name" : "addingItem_1ToCartTest",
+  "fullName" : "additem_1Test.addItem_1Test.addingItem_1ToCartTest",
+  "historyId" : "3a844799b47eace154e31124a1d2e60a",
+  "time" : {
+    "start" : 1706225495632,
+    "stop" : 1706225512213,
+    "duration" : 16581
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1706225476901,
+      "stop" : 1706225495578,
+      "duration" : 18677
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "additem_1Test.addItem_1Test"
+  }, {
+    "name" : "testClass",
+    "value" : "additem_1Test.addItem_1Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "addingItem_1ToCartTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "vodafone0"
+  }, {
+    "name" : "subSuite",
+    "value" : "additem_1Test.addItem_1Test"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-IEFST7I"
+  }, {
+    "name" : "thread",
+    "value" : "8588@DESKTOP-IEFST7I.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "78aa7ffe4034a2b7.json",
+  "parameterValues" : [ ]
+}

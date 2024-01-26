@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="E:/valeo prepration/iti studying/testing/automation/Vodafone/second-part/vodafone0">
+        <classes>
+            <class name="add3ItemsInOneTest.add3ItemsInOneTest">
+                <methods>
+                    <include name="add3ItemsInOneTest"/>
+                </methods>
+           </class>
+
+
+
+        </classes>
+    </test>
+</suite>

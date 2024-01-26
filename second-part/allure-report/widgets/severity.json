@@ -1,0 +1,141 @@
+[ {
+  "uid" : "88f0a1a20a9879ed",
+  "name" : "clickONItem_1",
+  "time" : {
+    "start" : 1706241691784,
+    "stop" : 1706241714365,
+    "duration" : 22581
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "41057c0ec5ebbe52",
+  "name" : "addingItem_3ToCartTest",
+  "time" : {
+    "start" : 1706241561744,
+    "stop" : 1706241585401,
+    "duration" : 23657
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "d05dfbb3948ccde3",
+  "name" : "setup",
+  "time" : {
+    "start" : 1706206877765,
+    "stop" : 1706206877768,
+    "duration" : 3
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "1f670eae2a831995",
+  "name" : "addItem_1ToCart",
+  "time" : {
+    "start" : 1706204450065,
+    "stop" : 1706204450137,
+    "duration" : 72
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "84ec8e91a4e4a8",
+  "name" : "addingItem_2ToCartTest",
+  "time" : {
+    "start" : 1706241526380,
+    "stop" : 1706241533218,
+    "duration" : 6838
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a3c9a9a6d883c7d8",
+  "name" : "openHomePage",
+  "time" : {
+    "start" : 1706208075033,
+    "stop" : 1706208079026,
+    "duration" : 3993
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7ff7a3803b648a97",
+  "name" : "add3ItemsInOneTest",
+  "time" : {
+    "start" : 1706242709558,
+    "stop" : 1706242776620,
+    "duration" : 67062
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9055c966aa671530",
+  "name" : "clickOnItem_1",
+  "time" : {
+    "start" : 1706204450302,
+    "stop" : 1706204450339,
+    "duration" : 37
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "d9d2050454e4ca31",
+  "name" : "addingItem_1ToCartTest",
+  "time" : {
+    "start" : 1706241610272,
+    "stop" : 1706241639231,
+    "duration" : 28959
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "f7079f8380c8bcc7",
+  "name" : "addingItem_1ToCartTest",
+  "time" : {
+    "start" : 1706214508826,
+    "stop" : 1706214533150,
+    "duration" : 24324
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "695390f095cffe86",
+  "name" : "successfulLoginTest",
+  "time" : {
+    "start" : 1706241759775,
+    "stop" : 1706241765459,
+    "duration" : 5684
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "24918fe4f05c10d1",
+  "name" : "clickONItem_1",
+  "time" : {
+    "start" : 1706213900234,
+    "stop" : 1706213914329,
+    "duration" : 14095
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fdebca17e5ee3a30",
+  "name" : "successfulLoginTest",
+  "time" : {
+    "start" : 1706204777994,
+    "stop" : 1706204791415,
+    "duration" : 13421
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "77a374475aa54ec4",
+  "name" : "addingItem_1ToCartTest",
+  "time" : {
+    "start" : 1706216188539,
+    "stop" : 1706216205936,
+    "duration" : 17397
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

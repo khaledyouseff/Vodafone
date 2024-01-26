@@ -1,0 +1,126 @@
+{
+  "uid" : "a3c9a9a6d883c7d8",
+  "name" : "openHomePage",
+  "fullName" : "homePageTest.openHomePage",
+  "historyId" : "aca77661583a1b6c0696734c42340535",
+  "time" : {
+    "start" : 1706208075033,
+    "stop" : 1706208079026,
+    "duration" : 3993
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 5,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1706208048114,
+      "stop" : 1706208074985,
+      "duration" : 26871
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "homePageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "homePageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "openHomePage"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "vodafone0"
+  }, {
+    "name" : "subSuite",
+    "value" : "homePageTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-IEFST7I"
+  }, {
+    "name" : "thread",
+    "value" : "12248@DESKTOP-IEFST7I.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d3dc8dd4fae01047",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706207101025,
+        "stop" : 1706207107829,
+        "duration" : 6804
+      }
+    }, {
+      "uid" : "5d44d4cb54281de8",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <img _ngcontent-gjk-c5=\"\" src=\"assets/icon-center/profile.svg\" width=\"25\" height=\"25\"> is not clickable at point (120, 38). Other element would receive the click: <div class=\"onetrust-pc-dark-filter ot-fade-in\" style=\"z-index:2147483645;\"></div>\n  (Session info: chrome=121.0.6167.86)\nBuild info: version: '4.13.0', revision: 'ba948ece5b*'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [2c497fe3c7469a08f0807b0044aed70f, clickElement {id=05AD0C3416CAFA513D656C55F49076C5_element_82}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.86, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\\Users\\khaled\\AppData\\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:5416}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:5416/devtool..., se:cdpVersion: 121.0.6167.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (2c497fe3c7469a08f0807b0044aed70f)] -> xpath: /html/body/vf-root/main/section[1]/vf-nav-bar/nav/div/vf-user-profile/div/button/img]\nSession ID: 2c497fe3c7469a08f0807b0044aed70f",
+      "time" : {
+        "start" : 1706207021034,
+        "stop" : 1706207022166,
+        "duration" : 1132
+      }
+    }, {
+      "uid" : "c7c2488cd73c5d21",
+      "status" : "skipped",
+      "statusDetails" : "invalid argument\n  (Session info: chrome=121.0.6167.86)\nBuild info: version: '4.13.0', revision: 'ba948ece5b*'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [fd294228ca5c14b00723f2a3a07cb363, get {url=eshop.vodafone.com.eg/shop/home}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.86, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\\Users\\khaled\\AppData\\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:5346}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:5346/devtool..., se:cdpVersion: 121.0.6167.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: fd294228ca5c14b00723f2a3a07cb363",
+      "time" : {
+        "start" : 1706206877865,
+        "stop" : 1706206877867,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "7a040269e96ef1bb",
+      "status" : "skipped",
+      "statusDetails" : "invalid argument\n  (Session info: chrome=121.0.6167.86)\nBuild info: version: '4.13.0', revision: 'ba948ece5b*'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [2f017b3025cd131f0507087d0b948f31, get {url=eshop.vodafone.com.eg/shop/home}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.86, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\\Users\\khaled\\AppData\\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:5240}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:5240/devtool..., se:cdpVersion: 121.0.6167.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 2f017b3025cd131f0507087d0b948f31",
+      "time" : {
+        "start" : 1706206662230,
+        "stop" : 1706206662231,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "1c05eddfbc0629c9",
+      "status" : "skipped",
+      "statusDetails" : "invalid argument\n  (Session info: chrome=121.0.6167.86)\nBuild info: version: '4.13.0', revision: 'ba948ece5b*'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [f104d4c0193189369a20a1c574965028, get {url=eshop.vodafone.com.eg/shop/home}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.86, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\\Users\\khaled\\AppData\\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:5219}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:5219/devtool..., se:cdpVersion: 121.0.6167.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: f104d4c0193189369a20a1c574965028",
+      "time" : {
+        "start" : 1706206642304,
+        "stop" : 1706206642306,
+        "duration" : 2
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a3c9a9a6d883c7d8.json",
+  "parameterValues" : [ ]
+}

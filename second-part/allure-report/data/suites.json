@@ -1,0 +1,295 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Default Suite",
+    "children" : [ {
+      "name" : "vodafone0",
+      "children" : [ {
+        "name" : "addItem_1Test",
+        "children" : [ {
+          "name" : "addItem_1ToCart",
+          "uid" : "1f670eae2a831995",
+          "parentUid" : "06cc948d6b2942c8b03c26c39fd64f8c",
+          "status" : "broken",
+          "time" : {
+            "start" : 1706204450065,
+            "stop" : 1706204450137,
+            "duration" : 72
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 1,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "clickOnItem_1",
+          "uid" : "9055c966aa671530",
+          "parentUid" : "06cc948d6b2942c8b03c26c39fd64f8c",
+          "status" : "broken",
+          "time" : {
+            "start" : 1706204450302,
+            "stop" : 1706204450339,
+            "duration" : 37
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 2,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "successfulLoginTest",
+          "uid" : "fdebca17e5ee3a30",
+          "parentUid" : "06cc948d6b2942c8b03c26c39fd64f8c",
+          "status" : "broken",
+          "time" : {
+            "start" : 1706204777994,
+            "stop" : 1706204791415,
+            "duration" : 13421
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 8,
+          "retriesStatusChange" : true,
+          "parameters" : [ ]
+        }, {
+          "name" : "addingItem_1ToCartTest",
+          "uid" : "f7079f8380c8bcc7",
+          "parentUid" : "06cc948d6b2942c8b03c26c39fd64f8c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1706214508826,
+            "stop" : 1706214533150,
+            "duration" : 24324
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 10,
+          "retriesStatusChange" : true,
+          "parameters" : [ ]
+        } ],
+        "uid" : "06cc948d6b2942c8b03c26c39fd64f8c"
+      }, {
+        "name" : "homePageTest",
+        "children" : [ {
+          "name" : "setup",
+          "uid" : "d05dfbb3948ccde3",
+          "parentUid" : "1624993a04471fb2daf4f9ca62ffdc38",
+          "status" : "broken",
+          "time" : {
+            "start" : 1706206877765,
+            "stop" : 1706206877768,
+            "duration" : 3
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 2,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "openHomePage",
+          "uid" : "a3c9a9a6d883c7d8",
+          "parentUid" : "1624993a04471fb2daf4f9ca62ffdc38",
+          "status" : "passed",
+          "time" : {
+            "start" : 1706208075033,
+            "stop" : 1706208079026,
+            "duration" : 3993
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 5,
+          "retriesStatusChange" : true,
+          "parameters" : [ ]
+        }, {
+          "name" : "clickONItem_1",
+          "uid" : "24918fe4f05c10d1",
+          "parentUid" : "1624993a04471fb2daf4f9ca62ffdc38",
+          "status" : "passed",
+          "time" : {
+            "start" : 1706213900234,
+            "stop" : 1706213914329,
+            "duration" : 14095
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 33,
+          "retriesStatusChange" : true,
+          "parameters" : [ ]
+        } ],
+        "uid" : "1624993a04471fb2daf4f9ca62ffdc38"
+      }, {
+        "name" : "addItem_2Test.addItem_2Test",
+        "children" : [ {
+          "name" : "addingItem_1ToCartTest",
+          "uid" : "77a374475aa54ec4",
+          "parentUid" : "5bfd1bbd9937540641cf5d5c1c6fa994",
+          "status" : "passed",
+          "time" : {
+            "start" : 1706216188539,
+            "stop" : 1706216205936,
+            "duration" : 17397
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 2,
+          "retriesStatusChange" : true,
+          "parameters" : [ ]
+        } ],
+        "uid" : "5bfd1bbd9937540641cf5d5c1c6fa994"
+      } ],
+      "uid" : "4cffefa2511ff905b967547625f37eca"
+    } ],
+    "uid" : "8399274b4bb69ec8699907dd6ef7de4e"
+  }, {
+    "name" : "All Test Suite",
+    "children" : [ {
+      "name" : "E:/valeo prepration/iti studying/testing/automation/Vodafone/second-part/vodafone0",
+      "children" : [ {
+        "name" : "addItem_2Test.addItem_2Test",
+        "children" : [ {
+          "name" : "addingItem_2ToCartTest",
+          "uid" : "84ec8e91a4e4a8",
+          "parentUid" : "eab98b2fc1e05e3ada1bf3f5b1b9017e",
+          "status" : "broken",
+          "time" : {
+            "start" : 1706241526380,
+            "stop" : 1706241533218,
+            "duration" : 6838
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 6,
+          "retriesStatusChange" : true,
+          "parameters" : [ ]
+        } ],
+        "uid" : "eab98b2fc1e05e3ada1bf3f5b1b9017e"
+      }, {
+        "name" : "addItem_3Test.addItem_3Test",
+        "children" : [ {
+          "name" : "addingItem_3ToCartTest",
+          "uid" : "41057c0ec5ebbe52",
+          "parentUid" : "8d62dd52fcfab54dc4e55e06fe29b3b9",
+          "status" : "broken",
+          "time" : {
+            "start" : 1706241561744,
+            "stop" : 1706241585401,
+            "duration" : 23657
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 22,
+          "retriesStatusChange" : true,
+          "parameters" : [ ]
+        } ],
+        "uid" : "8d62dd52fcfab54dc4e55e06fe29b3b9"
+      }, {
+        "name" : "additem_1Test.addItem_1Test",
+        "children" : [ {
+          "name" : "addingItem_1ToCartTest",
+          "uid" : "d9d2050454e4ca31",
+          "parentUid" : "ee51c4c438030210b91d1679cdcba366",
+          "status" : "failed",
+          "time" : {
+            "start" : 1706241610272,
+            "stop" : 1706241639231,
+            "duration" : 28959
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 26,
+          "retriesStatusChange" : true,
+          "parameters" : [ ]
+        } ],
+        "uid" : "ee51c4c438030210b91d1679cdcba366"
+      }, {
+        "name" : "homePageTest.homePageTest",
+        "children" : [ {
+          "name" : "clickONItem_1",
+          "uid" : "88f0a1a20a9879ed",
+          "parentUid" : "e6c1f60c6e3fa723449677b3ccd3c419",
+          "status" : "passed",
+          "time" : {
+            "start" : 1706241691784,
+            "stop" : 1706241714365,
+            "duration" : 22581
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "e6c1f60c6e3fa723449677b3ccd3c419"
+      }, {
+        "name" : "loginTest.loginTest",
+        "children" : [ {
+          "name" : "successfulLoginTest",
+          "uid" : "695390f095cffe86",
+          "parentUid" : "daeb847bf6f8a3ff0dff48365830939f",
+          "status" : "passed",
+          "time" : {
+            "start" : 1706241759775,
+            "stop" : 1706241765459,
+            "duration" : 5684
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 22,
+          "retriesStatusChange" : true,
+          "parameters" : [ ]
+        } ],
+        "uid" : "daeb847bf6f8a3ff0dff48365830939f"
+      }, {
+        "name" : "add3ItemsInOneTest.add3ItemsInOneTest",
+        "children" : [ {
+          "name" : "add3ItemsInOneTest",
+          "uid" : "7ff7a3803b648a97",
+          "parentUid" : "bf33001cb98d44e9338650453d722701",
+          "status" : "passed",
+          "time" : {
+            "start" : 1706242709558,
+            "stop" : 1706242776620,
+            "duration" : 67062
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 32,
+          "retriesStatusChange" : true,
+          "parameters" : [ ]
+        } ],
+        "uid" : "bf33001cb98d44e9338650453d722701"
+      } ],
+      "uid" : "61d0c97d34b5f619943f5beb914c4ab9"
+    } ],
+    "uid" : "7d0421919ebcae780c955830177c9415"
+  } ]
+}

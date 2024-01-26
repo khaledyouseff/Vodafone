@@ -1,0 +1,275 @@
+{
+  "fe5cd4777216df2988edc3c12cdd8a81" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9055c966aa671530",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#onetrust\\-accept\\-btn\\-handler\"}\n  (Session info: chrome=121.0.6167.86)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.13.0', revision: 'ba948ece5b*'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [1e79bc9dc6abc471461be8702461dd76, findElement {using=id, value=onetrust-accept-btn-handler}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.86, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\\Users\\khaled\\AppData\\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:3225}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:3225/devtool..., se:cdpVersion: 121.0.6167.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 1e79bc9dc6abc471461be8702461dd76",
+      "time" : {
+        "start" : 1706204450302,
+        "stop" : 1706204450339,
+        "duration" : 37
+      }
+    } ]
+  },
+  "e4fe6b62e75281d08820e2331dd380f1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7ff7a3803b648a97",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706242709558,
+        "stop" : 1706242776620,
+        "duration" : 67062
+      }
+    } ]
+  },
+  "aca77661583a1b6c0696734c42340535" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a3c9a9a6d883c7d8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706208075033,
+        "stop" : 1706208079026,
+        "duration" : 3993
+      }
+    } ]
+  },
+  "d7f049c39f1e393d0c3668d4b51bfd31" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "695390f095cffe86",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706241759775,
+        "stop" : 1706241765459,
+        "duration" : 5684
+      }
+    } ]
+  },
+  "3a844799b47eace154e31124a1d2e60a" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d9d2050454e4ca31",
+      "status" : "failed",
+      "statusDetails" : "Text does not match the expected value. expected [Samsung The Freestyle Portable Projector LSP3B] but found [OPPO Smart Phone Reno 10 (5G)]",
+      "time" : {
+        "start" : 1706241610272,
+        "stop" : 1706241639231,
+        "duration" : 28959
+      }
+    } ]
+  },
+  "f6638f76b1713e14f33f3959d342fd17" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f7079f8380c8bcc7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706214508826,
+        "stop" : 1706214533150,
+        "duration" : 24324
+      }
+    } ]
+  },
+  "9eea3038820e8c30c3228b38a64f4240" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "41057c0ec5ebbe52",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/vf-root/main/section[2]/vf-my-cart/div/div/div/div[1]/div[3]/div/div[2]/p\"}\n  (Session info: chrome=121.0.6167.86)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.13.0', revision: 'ba948ece5b*'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [130ea7ae39e99d695b1c510d11cc6176, findElement {using=xpath, value=/html/body/vf-root/main/section[2]/vf-my-cart/div/div/div/div[1]/div[3]/div/div[2]/p}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.86, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\\Users\\khaled\\AppData\\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:5806}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:5806/devtool..., se:cdpVersion: 121.0.6167.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 130ea7ae39e99d695b1c510d11cc6176",
+      "time" : {
+        "start" : 1706241561744,
+        "stop" : 1706241585401,
+        "duration" : 23657
+      }
+    } ]
+  },
+  "ebaab0b905ce5c2263d8b7c0c2bb9e5f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "24918fe4f05c10d1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706213900234,
+        "stop" : 1706213914329,
+        "duration" : 14095
+      }
+    } ]
+  },
+  "a67b963730701b51801120e210aa4a00" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1f670eae2a831995",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".add\\-to\\-cart\"}\n  (Session info: chrome=121.0.6167.86)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.13.0', revision: 'ba948ece5b*'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [1e79bc9dc6abc471461be8702461dd76, findElement {using=class name, value=add-to-cart}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.86, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\\Users\\khaled\\AppData\\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:3225}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:3225/devtool..., se:cdpVersion: 121.0.6167.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 1e79bc9dc6abc471461be8702461dd76",
+      "time" : {
+        "start" : 1706204450065,
+        "stop" : 1706204450137,
+        "duration" : 72
+      }
+    } ]
+  },
+  "1205e56a2fe10f2a1cd94afe9bb94810" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "88f0a1a20a9879ed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706241691784,
+        "stop" : 1706241714365,
+        "duration" : 22581
+      }
+    } ]
+  },
+  "2195f4bebc61a3a0540f620d5b370421" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "84ec8e91a4e4a8",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <input tabindex=\"4\" id=\"submitBtn\" class=\"btn btn-primary card-btn js-btn-submit2\" type=\"button\" name=\"login\" value=\"Go to my account\"> is not clickable at point (768, 473). Other element would receive the click: <div class=\"spinner\" style=\"opacity: 0.023194;\">...</div>\n  (Session info: chrome=121.0.6167.86)\nBuild info: version: '4.13.0', revision: 'ba948ece5b*'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [5bac619297be7665f6f9e3e7ae8eb919, clickElement {id=A5635B5A4BE6C551A6EEA428BC65F8AA_element_88}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.86, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\\Users\\khaled\\AppData\\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:5734}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:5734/devtool..., se:cdpVersion: 121.0.6167.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (5bac619297be7665f6f9e3e7ae8eb919)] -> id: submitBtn]\nSession ID: 5bac619297be7665f6f9e3e7ae8eb919",
+      "time" : {
+        "start" : 1706241526380,
+        "stop" : 1706241533218,
+        "duration" : 6838
+      }
+    } ]
+  },
+  "98e3474927ffc3be6beeaa541c7672e9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "77a374475aa54ec4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706216188539,
+        "stop" : 1706216205936,
+        "duration" : 17397
+      }
+    } ]
+  },
+  "d47fde044fba6dd4cb1c11aabc694df4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fdebca17e5ee3a30",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element is not clickable at point (1229, 997)\n  (Session info: chrome=121.0.6167.86)\nBuild info: version: '4.13.0', revision: 'ba948ece5b*'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [bc8de2389cfca17c78def95071559a1e, clickElement {id=530EADFC3C4528822E2B4D76FA827C0D_element_116}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.86, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\\Users\\khaled\\AppData\\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:3656}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:3656/devtool..., se:cdpVersion: 121.0.6167.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (bc8de2389cfca17c78def95071559a1e)] -> id: mainText]\nSession ID: bc8de2389cfca17c78def95071559a1e",
+      "time" : {
+        "start" : 1706204777994,
+        "stop" : 1706204791415,
+        "duration" : 13421
+      }
+    } ]
+  },
+  "a050ffe7741925b83672c91746c936c5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d05dfbb3948ccde3",
+      "status" : "broken",
+      "statusDetails" : "invalid argument\n  (Session info: chrome=121.0.6167.86)\nBuild info: version: '4.13.0', revision: 'ba948ece5b*'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [fd294228ca5c14b00723f2a3a07cb363, get {url=eshop.vodafone.com.eg/shop/home}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.86, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\\Users\\khaled\\AppData\\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:5346}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:5346/devtool..., se:cdpVersion: 121.0.6167.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: fd294228ca5c14b00723f2a3a07cb363",
+      "time" : {
+        "start" : 1706206877765,
+        "stop" : 1706206877768,
+        "duration" : 3
+      }
+    } ]
+  }
+}
