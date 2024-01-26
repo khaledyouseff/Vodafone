@@ -35,14 +35,16 @@ import java.util.concurrent.TimeUnit;
             homePage.scrollDown1();
            // Thread.sleep(5000);
 
-            WebElement item_1IsVisible = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/vf-root/main/section[2]/vf-la" +
+            WebElement item_1IsClickable = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html/body/vf-root/main/section[2]/vf-la" +
                     "nding-page/vf-ng-main-container[2]/section/div/div[3]/vf-middleware/div[2]/vf-products-contai" +
                     "ner/section/div[2]/div/vf-product-box-featured[2]/div/div[3]/div/div[1]/p")));
+            Thread.sleep(5000);
             homePage.clickItem_1();
             //adding item 1 to cart
-            WebElement addTOCart = wait.until(ExpectedConditions.visibilityOfElementLocated(By.className("add-to-cart")));
+            WebElement addTOCart = wait.until(ExpectedConditions.elementToBeClickable(By.className("add-to-cart")));
             item_1 item1 = new item_1(driver);
             item1.addToCart();
+            Thread.sleep(5000);
             //back to home page
             item1.clickHomePageIcon();
 
@@ -50,13 +52,15 @@ import java.util.concurrent.TimeUnit;
             Thread.sleep(5000);
             homePage.scrollDown1();
             Thread.sleep(5000);
-            homePage.clickItem_1();
+            homePage.clickItem_2();
             //adding item 2 to cart
             item_2 item2 = new item_2(driver);
             addTOCart = wait.until(ExpectedConditions.elementToBeClickable(By.className("add-to-cart")));
             item2.addToCart();
+            Thread.sleep(5000);
             //back to home page
             item2.clickHomePageIcon();
+
             //searching for item 3
             WebElement searchBar = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("searchInput")));
             homePage.searchItem_3();

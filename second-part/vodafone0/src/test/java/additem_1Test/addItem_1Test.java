@@ -44,7 +44,9 @@ public class addItem_1Test extends baseTest {
         Thread.sleep(5000);
         homePage.clickItem_1();
         //adding item 1 to cart
-        WebElement addTOCart = wait.until(ExpectedConditions.visibilityOfElementLocated(By.className("add-to-cart")));
+         WebElement addTOCart = wait.until(ExpectedConditions.elementToBeClickable(By.className("add-to-cart")));
+        //driver.manage().timeouts().implicitlyWait(10 , TimeUnit.SECONDS);
+
         item_1 item1 = new item_1(driver);
         item1.addToCart();
 
