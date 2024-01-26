@@ -13,4 +13,10 @@ public class cartPage {
              "/vf-my-cart/div/div/div/div[1]/div/div/div[2]/p")).getText();
      return item_1Title;
     }
+
+    public String getItem_2Title(){
+        String item_2Title= driver.findElement(By.xpath("/html/body/vf-root/main/section" +
+                "[2]/vf-my-cart/div/div/div/div[1]/div[2]/div/div[2]/p")).getText();
+        return item_2Title;
+    }
 }
