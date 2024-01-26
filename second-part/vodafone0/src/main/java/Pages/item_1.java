@@ -17,5 +17,9 @@ public void addToCart(){
         driver.findElement(By.cssSelector("p.logo-text")).click();
         return new homePage(driver);
     }
+    public cartPage clickCartIcon(){
+        driver.findElement(By.className("cart-icon")).click();
+        return new cartPage(driver);
+    }
 }
 

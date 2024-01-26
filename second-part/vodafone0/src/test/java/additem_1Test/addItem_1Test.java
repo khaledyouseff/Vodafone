@@ -1,5 +1,6 @@
 package additem_1Test;
 
+import Pages.cartPage;
 import baseTest.baseTest;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -10,6 +11,7 @@ import baseTest.baseTest;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.time.Duration;
@@ -49,6 +51,15 @@ public class addItem_1Test extends baseTest {
 
         item_1 item1 = new item_1(driver);
         item1.addToCart();
+        Thread.sleep(5000);
+        //Assertion
+        item1.clickCartIcon();
+       cartPage cart = new cartPage(driver);
+        Thread.sleep(5000);
+        String i1= cart.getItem_1Title();
+        Assert.assertEquals("OPPO Smart Phone Reno 10 (5G)" ,i1,  "Text does not match the expected value.");
+
+
 
     }
 
