@@ -7,6 +7,7 @@ import baseTest.baseTest;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.time.Duration;
@@ -19,7 +20,7 @@ import java.util.concurrent.TimeUnit;
         public void add3ItemsInOneTest() throws InterruptedException {
             //login
             homePage homePage = new homePage(driver);
-            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
             WebElement cookies = wait.until(ExpectedConditions.elementToBeClickable(By.id("onetrust-accept-btn-handler")));
             homePage.clickAcceptCookies();
             homePage.clickLoginIcon();
@@ -74,7 +75,23 @@ import java.util.concurrent.TimeUnit;
             item_3 item3 = new item_3(driver);
             addTOCart = wait.until(ExpectedConditions.elementToBeClickable(By.className("add-to-cart")));
             item3.addToCart();
+            Thread.sleep(5000);
+            //assertion for the 3 items
+            item3.clickCartIcon();
+            cartPage cart = new cartPage(driver);
+            Thread.sleep(5000);
+            String i1= cart.getItem_1Title();
+            Assert.assertEquals("OPPO Smart Phone Reno 10 (5G)" ,i1,  "Text does not match the expected value.");
+            String i2= cart.getItem_2Title();
+            Assert.assertEquals("OPPO Smart Phone A78" ,i2,  "Text does not match the expected value.");
+            //cart.scrollDown();
+            Thread.sleep(5000);
+            //wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"01HN2RXN4B0ZTR061PMB231E1" +
+                    //"N\"]/div/div[2]/p")));
+            String i3= cart.getItem_3Title();
 
+            Assert.assertEquals("Samsung The Freestyle Portable Projector LSP3B" ,i3,
+                    "Text does not match the expected value.");
 
 
 
