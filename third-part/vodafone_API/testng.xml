@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="E:/valeo prepration/iti studying/testing/automation/Vodafone/third-part/vodafone_API">
+        <classes>
+            <class name="validationTests.getSingleCode">
+                <methods>
+                    <include name="validateStatusCodeIs200ok"/>
+                    <include name="ValidatingResponseBodyContainsSpecificField"/>
+                    <include name="validateAllFields"/>
+                    <include name="ValidateContentType"/>
+                    <include name="verifyErrorForInvalidZipCode"/>
+                    <include name="verifyErrorForUnsupportedCountry"/>
+                    <include name="verifySuccessfulRequestForAll"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
