@@ -28,6 +28,7 @@ public class addItem_2ToCartSteps {
     @When("fill valid mobile number as {string} and password as {string} and click item 2 add to cart")
     public void fill_valid_mobile_number_and_password(String mobile, String password) throws InterruptedException {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        //login----------------------------------------------
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("onetrust-accept-btn-handler")));
         driver.findElement(By.id("onetrust-accept-btn-handler")).click();
         driver.findElement(By.id("userProfileMenu")).click();
@@ -36,12 +37,14 @@ public class addItem_2ToCartSteps {
         driver.findElement(By.id("submitBtn")).click();
 
         Thread.sleep(5000);
+        //scroll in home page and click item -------------------------------------
+
         JavascriptExecutor js = (JavascriptExecutor)driver;
         js.executeScript("scrollBy(0,1200)");
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html/body/vf-root/main/section[2]/vf-landing-page/vf-ng-main-container[2]/section/div/div[3]/vf-middleware/div[2]/vf-products-container/section/div[2]/div/vf-product-box-featured[3]/div/div[3]/div/div[1]/p")));
         Thread.sleep(5000);
         driver.findElement(By.xpath("/html/body/vf-root/main/section[2]/vf-landing-page/vf-ng-main-container[2]/section/div/div[3]/vf-middleware/div[2]/vf-products-container/section/div[2]/div/vf-product-box-featured[3]/div/div[3]/div/div[1]/p")).click();
-
+        //click at add to cart--------------------------------------
         WebElement addTOCart = wait.until(ExpectedConditions.elementToBeClickable(By.className("add-to-cart")));
         driver.findElement(By.className("add-to-cart")).click();
         Thread.sleep(5000);
@@ -49,6 +52,7 @@ public class addItem_2ToCartSteps {
     }
     @Then("user add item 2 to cart successfully")
     public void user_login_successfully() {
+        //assert that the item is added to cart-----------------------------------
         driver.findElement(By.className("cart-icon")).click();
       String  item_3Title= driver.findElement(By.xpath("/html/body/vf-root/main/section[2]/vf-my" +
                 "-cart/div/div/div/div[1]/div[3]/div/div[2]/p")).getText();
