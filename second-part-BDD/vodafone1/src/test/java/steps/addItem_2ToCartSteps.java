@@ -50,9 +50,9 @@ public class addItem_2ToCartSteps {
     @Then("user add item 2 to cart successfully")
     public void user_login_successfully() {
         driver.findElement(By.className("cart-icon")).click();
-        String item_2Title= driver.findElement(By.xpath("/html/body/vf-root/main/section[2]/vf-my-car\" +\n" +
-                "\"t/div/div/div/div[1]/div[2]/div/div[2]/p")).getText();
-        Assert.assertEquals("OPPO Smart Phone A78" ,item_2Title,  "Text does not match the expected value.");
+      String  item_3Title= driver.findElement(By.xpath("/html/body/vf-root/main/section[2]/vf-my" +
+                "-cart/div/div/div/div[1]/div[3]/div/div[2]/p")).getText();
+        Assert.assertEquals("Samsung The Freestyle Portable Projector LSP3B" ,item_3Title,  "Text does not match the expected value.");
 
     }
 }
