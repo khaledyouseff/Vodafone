@@ -17,9 +17,9 @@ import java.time.Duration;
 
 import static org.testng.AssertJUnit.assertTrue;
 
-public class selectItem_1Steps {
+public class addItem_1ToCartSteps {
     WebDriver driver;
-    @Given("user open url and go login page and login and go to homePage to select item")
+    @Given("user open url and go login page and login and go to homePage to select item 1")
     public void user_open_url_and_go_to_login_page() {
         WebDriverManager.chromedriver().setup();
         driver=new ChromeDriver();
@@ -28,7 +28,7 @@ public class selectItem_1Steps {
 
     }
 
-    @When("fill valid mobile number as {string} and password as {string} and click add to cart")
+    @When("fill valid mobile number as {string} and password as {string} and click item 1 add to cart")
     public void fill_valid_mobile_number_and_password(String mobile, String password) throws InterruptedException {
         driver.findElement(By.id("onetrust-accept-btn-handler")).click();
         driver.findElement(By.id("userProfileMenu")).click();
@@ -53,7 +53,7 @@ public class selectItem_1Steps {
 
     }
 
-    @Then("user add item to cart successfully")
+    @Then("user add item 1 to cart successfully")
     public void user_login_successfully() {
         driver.findElement(By.className("cart-icon")).click();
         String item_1Title= driver.findElement(By.xpath("/html/body/vf-root/main/section[2]/vf-my-cart/d" +
